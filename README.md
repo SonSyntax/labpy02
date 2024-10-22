@@ -14,6 +14,7 @@ uas = input("Masukkan nilai UAS:")
 tugas = input("Masukkan nilai Tugas:")
 akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
 keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+
 if akhir > 80:
 huruf = "A"
 elif akhir > 70:
@@ -24,6 +25,7 @@ elif akhir > 40:
 huruf = "D"
 else:
 huruf = "E"
+
 print("\nNama :",nama)
 print("Nilai UTS :",uts)
 print("Nilai UAS :",uas)
