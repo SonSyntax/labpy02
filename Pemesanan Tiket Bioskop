@@ -1,3 +1,9 @@
+# harga_reguler = 50000
+# harga_vip = 100000
+
+# tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+# status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+
 # Menghitung total harga
 if tipe_tiket == "reguler":
     total_harga = harga_reguler
