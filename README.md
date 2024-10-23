@@ -129,7 +129,7 @@ if gaji > 3000000:
 else:
     print ("Gaji belum UMR")
 ````
-Struktur Kondisi Ini menggunakan `if, `elif, dAN `else`
+Struktur Kondisi Ini menggunakan desision `if, `elif`, dan `else`
 
 ```Python
 gaji = int(input("Masukkan gaji:"))
@@ -171,7 +171,37 @@ else:
 
 `else` yang dibawah sendiri ini terhubung dengan `if Gaji > 3000000:`, karna kalau gaji tidak melebihi 3 juta `Output` yang keluar "Gaji belum UMR"
 
-## 
+## Menggunakan kondisi or dengan menginputkan 3 bilangan
+```Python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
 
+if a+b == c or b+c == a or c+a == b:
+    print("BENAR")
+else:
+    print("SALAH")
+````
+Operator or dalam Python mengevaluasi beberapa kondisi dan mengembalikan True jika salah satu kondisinya benar.
+
+```Python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+````
+
+Program ini akan menginputkan sesuatu `integer` yang menggunakan variable a, b, c.
+
+```python
+if a+b == c or b+c == a or c+a == b:
+    print("BENAR")
+else:
+    print("SALAH")
+````
+
+Jika (a) ditambah (b) hasilnya (c) atau yang bahasa programnya itu `or` (b) ditambah (c) hasilnya a, atau (c) ditambah (a) hasilnya (b), Maka Output yang keluar ialah "BENAR".
+<p>Jika tidak sesuai dengan program Output akan Keluar "SALAH"</p>
+
+## 
 
 
