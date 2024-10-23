@@ -37,7 +37,7 @@ print("Nilai Akhir :",akhir)
 print("\nNilai Huruf :",huruf)
 print("Keterangan :",keterangan)
 ````
-Untuk menentukan nilai akhir pada Python, Anda bisa menggunakan pernyataan return untuk menandai akhir fungsi atau Menggunakan fungsi print() dan menentukan nilai yang akan dikembalikan. Pernyataan return dapat mengembalikan berbagai jenis data, seperti integer, float, string, list, dictionary, dan fungsi lainnya. Untuk menentukan nilai akhir dalam Python, Anda bisa membuat program yang menghitung nilai akhir berdasarkan pembobotan nilai. 
+Untuk menentukan nilai akhir pada Python, Anda bisa menggunakan pernyataan `return` untuk menandai akhir fungsi atau Menggunakan fungsi `print()` dan menentukan nilai yang akan dikembalikan. Pernyataan `return` dapat mengembalikan berbagai jenis data, seperti `integer`, `float`, string, `list`, `dictionary`, dan fungsi lainnya. Untuk menentukan nilai akhir dalam Python, Anda bisa membuat program yang menghitung nilai akhir berdasarkan pembobotan nilai. 
 
 ```Python
 nama = input("Masukkan nama:")
