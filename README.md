@@ -86,12 +86,26 @@ if akhir > 80:
 huruf = "A"
 ````
 
-Jika Hasil dari variable (Akhir) Lebih besar dari 80 maka output yang keluar d`String` A, dan seterusnya begitu dalam bahasa manusia
+Jika Hasil dari variable (Akhir) Lebih besar dari 80 maka output yang keluar (A), dan seterusnya begitu dalam bahasa manusia
 
 ```Python
 else:
 huruf = "E"
 ````
 
-Jika tidak sesuai semuanya pada program diatas output akan keluar E
+Jika tidak sesuai semuanya pada program diatas output akan keluar (E)
 
+
+```Python
+print("\nNama :",nama)
+print("Nilai UTS :",uts)
+print("Nilai UAS :",uas)
+print("Nilai Tugas :",tugas)
+print("Nilai Akhir :",akhir)
+print("\nNilai Huruf :",huruf)
+print("Keterangan :",keterangan)
+````
+
+Fungsi `Print()` ini aka mencetak Variable-Variable program tersebut
+
+## 
