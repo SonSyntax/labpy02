@@ -64,8 +64,34 @@ Untuk yang diatas Nilai `int` di `*` dalam bahasa manusia itu di kalikan, Yang a
 keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
 ````
 
-Keterangan ini hanya sebuah variable yang nantiya aka di cetakan, dan di hasil akhir akan mengproses `[variable akhir lebih besar dari 60.0]`
+Keterangan ini hanya sebuah variable yang nantiya aka di cetakan, dan di hasil akhir akan mengproses [variable akhir lebih besar dari 60.0]
 
+```Python
+if akhir > 80:
+huruf = "A"
+elif akhir > 70:
+huruf = "B"
+elif akhir > 50:
+huruf = "C"
+elif akhir > 40:
+huruf = "D"
+else:
+huruf = "E"
+````
 
+Ini adalah Struktur Kondisi Yang Menggunakan `If`, `Elif`, dan `Else`
 
+```Python
+if akhir > 80:
+huruf = "A"
+````
+
+Jika Hasil dari variable (Akhir) Lebih besar dari 80 maka output yang keluar d`String` A, dan seterusnya begitu dalam bahasa manusia
+
+```Python
+else:
+huruf = "E"
+````
+
+Jika tidak sesuai semuanya pada program diatas output akan keluar E
 
