@@ -4,7 +4,10 @@
 <P>MATKUL : BAHASA PEMROGRAMAN</P>
 
 # Struktur Kondisi
-<p>Pada python dikenal penggunaan struktur kondisi menggunakan statement if</p>
+<p>Pada python dikenal penggunaan struktur kondisi menggunakan statement if, Konsep pemrograman yang memungkinkan program untuk mengambil keputusan berdasarkan kondisi atau pernyataan tertentu. Struktur seleksi kondisi yang umum digunakan dalam Python </p>
+<P>If: Kondisi utama</p>
+<p>Else if: Kondisi kedua atau ketiga hingga ke-x</p>
+<p>Else: Kondisi terakhir jika semua kondisi sebelumnya tidak terpenuhi </P>
 
 ## Menentukan Nilai Akhir
 ```Python
