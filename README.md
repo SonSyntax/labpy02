@@ -59,6 +59,12 @@ Fungsi integer `int` dalam bahasa pemrograman adalah menyimpan nilai numerik dal
 
 <p> Contoh nilai tugas yang di masukan 100, nanti akan dikalikan dengan program diatas .2 yang artiya (0,2) akan keluar cetakan 20  </p>
 
+```Python
+keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+````
+
+Keterangan ini hanya sebuah variable yang nantiya aka di cetakan, dan di hasil akhir akan mengproses `[variable akhir lebih besar dari 60.0]`
+
 
 
 
