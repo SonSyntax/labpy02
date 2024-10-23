@@ -282,7 +282,7 @@ desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status m
 <p>dan jika inputan status member "tidak", maka total harga normal</p>
 <p>jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitung"</p>
 
-Hasil program tersebut 
+<p>Hasil program tersebut</p>
 ![hasilprogramtiket](https://github.com/user-attachments/assets/e84a467d-4c88-4705-b2d2-2175810476ed)
 
 Eksekusi program tersebut
