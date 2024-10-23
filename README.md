@@ -253,4 +253,40 @@ status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
 
 memasukan inputan sesuai Output Program (Reguler/Vip) di variable (Tipe_Tiket), dan Memasukan inputan yang output tersebut Bertanya memiliki kartu member atau tidak.
 
+```Python
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    exit()
+````
+
+Jika tike tiket reguler total harga proses ke Harga reguler, dan jika tiket vip Total harga proses keharga vip
+<p>dan jika Selain memsukan inputan reguler/vip Output yang keluar "Tipe tiket tidak valid" dan berproses ke fungsi `exit()` yang artinya program dihentikan</p>
+
+```Python
+if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20%
+    
+        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+elif status_member == "tidak":
+            total_harga
+            print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
+else:
+    print("Harga tidak dapat dihitung.")
+````
+
+desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status member menjawab "ya", maka total harga akan di kalikan dengan operator `*` 0,8  yang disebut diskon 20%
+<p>dan jika inputan status member "tidak", maka total harga normal</p>
+<p>jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitung"</p>
+
+Hasil program tersebut 
+![hasilprogramtiket](https://github.com/user-attachments/assets/e84a467d-4c88-4705-b2d2-2175810476ed)
+
+Eksekusi program tersebut
+![image](https://github.com/user-attachments/assets/5461902a-81a5-453a-8098-6da5fa81378b)
+
+
 
