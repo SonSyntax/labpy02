@@ -291,8 +291,11 @@ Eksekusi program tersebut
 ![image](https://github.com/user-attachments/assets/5461902a-81a5-453a-8098-6da5fa81378b)
 
 
-
+#
 ## Kalkulator Sederhana
+
+![soalkalkulator](https://github.com/user-attachments/assets/0430b533-52e7-425b-af86-22508560afc5)
+
 ```Python
 angka1 = float(input("Masukkan angka pertama: "))
 operator = input("Masukkan operator (+, -, *, /): ")
