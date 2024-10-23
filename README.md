@@ -358,5 +358,12 @@ saya memasukan desision else ini Karna jika menjawab selain fungsi operator  ini
 
 <p>Hasil program tersebut</P>
 
+![hasilprogramkalkulator](https://github.com/user-attachments/assets/f4ba8af8-7e6c-4f81-9f95-ef4df1660f20)
+
+<p>Eksekusi program tersebut</p>
+
+![eksekusiprogramkalkulator](https://github.com/user-attachments/assets/8b737d83-cb3d-4a6c-a189-32f278e15aa4)
+
+
 
 
