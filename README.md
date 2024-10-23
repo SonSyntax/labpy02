@@ -202,6 +202,31 @@ else:
 Jika (a) ditambah (b) hasilnya (c) atau yang bahasa programnya itu `or` (b) ditambah (c) hasilnya a, atau (c) ditambah (a) hasilnya (b), Maka Output yang keluar ialah "BENAR".
 <p>Jika tidak sesuai dengan program Output akan Keluar "SALAH"</p>
 
-## 
+# Latihan 3
+## Pemesanan Tiket Bioskop
+```Python
+# harga_reguler = 50000
+# harga_vip = 100000
+
+# tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+# status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    total_harga = None
+
+# Menghitung diskon jika pengguna memiliki kartu member
+if total_harga is not None:
+    if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20%
+    
+    print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+else:
+    print("Harga tidak dapat dihitung.")
+````
 
 
