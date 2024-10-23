@@ -108,4 +108,70 @@ print("Keterangan :",keterangan)
 
 Fungsi `Print()` ini aka mencetak Variable-Variable program tersebut
 
+## Menampilkan Status Gaji Karyawan
+```Python
+gaji = int(input("Masukkan gaji:"))
+berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
+punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+
+
+if gaji > 3000000:
+    print ("Gaji sudah diatas UMR")
+    if berkeluarga:
+        print ("Wajib ikutan asuransi dan menabung untuk pensiun")
+    else:
+        print ("Tidak perlu ikutan asuransi")
+    if punya_rumah:
+        print ("wajib bayar pajak rumah")
+
+    else:
+        print ("tidak wajib bayar pajak rumah")
+else:
+    print ("Gaji belum UMR")
+````
+Struktur Kondisi Ini menggunakan `if, `elif, dAN `else`
+
+```Python
+gaji = int(input("Masukkan gaji:"))
+````
+
+Inputan ini akan memasukan angka Gaji, Karna memiliki fungsi `integer`
+
+```Python
+berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
+punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+````
+
+Inputan ini menggunakan fungsi `string` yang dimasukan berupa Huruf, dan `(False, True)` ini adalah fungsi pemilihan Y atau T, supaya tidak menggunakan if dilanjutan program tersbut
+
+```Python
+if gaji > 3000000:
+    print ("Gaji sudah diatas UMR")
+    if berkeluarga:
+        print ("Wajib ikutan asuransi dan menabung untuk pensiun")
+    else:
+        print ("Tidak perlu ikutan asuransi")
+````
+
+Jika angka gaji lebih dari 3 juta maka Output yang akan keluar "Gaji sudah diatas UMR", dan jika tidak Output yang keluar "Tidak perlu ikutan asuransi"
+
+```Python
+if punya_rumah:
+        print ("wajib bayar pajak rumah")
+
+    else:
+        print ("tidak wajib bayar pajak rumah")
+````
+Jika Memiliki rumah `Output` yang keluar "Wajib bayar Pajak", jika tidak `output` yang keluar "Tidak wajib bayar pajak"
+
+```Python
+else:
+    print ("Gaji belum UMR")
+````
+
+`else` yang dibawah sendiri ini terhubung dengan `if Gaji > 3000000:`, karna kalau gaji tidak melebihi 3 juta `Output` yang keluar "Gaji belum UMR"
+
 ## 
+
+
+
