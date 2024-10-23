@@ -208,28 +208,49 @@ Jika (a) ditambah (b) hasilnya (c) atau yang bahasa programnya itu `or` (b) dita
 ![soal pemesanantiket](https://github.com/user-attachments/assets/a530e1ae-d00e-475e-a48d-2e899dee9eb5)
 
 ```Python
-# harga_reguler = 50000
-# harga_vip = 100000
+harga_reguler = 50000
+harga_vip = 100000
 
-# tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
-# status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
 
+# Menghitung total harga
 if tipe_tiket == "reguler":
     total_harga = harga_reguler
 elif tipe_tiket == "vip":
     total_harga = harga_vip
 else:
     print("Tipe tiket tidak valid.")
-    total_harga = None
+    exit()
 
 # Menghitung diskon jika pengguna memiliki kartu member
-if total_harga is not None:
-    if status_member == "ya":
+
+
+if status_member == "ya":
         total_harga *= 0.8  # Diskon 20%
     
-    print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+elif status_member == "tidak":
+            total_harga
+            print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
 else:
     print("Harga tidak dapat dihitung.")
 ````
+
+Program ini akan menentukan harga pesanan tiket bioskop, Yang reguler/Vip, dan jika Vip harga 100.000, dan jika reguler 80.0000, dan jika memiliki kartu member pelanggan tersebut akan mendapatkan diskon 20%
+
+```Python
+harga_reguler = 50000
+harga_vip = 100000
+````
+
+Variable ini menentukan harga tiket tersebut
+
+```Python
+tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+````
+
+memasukan inputan sesuai Output Program (Reguler/Vip) di variable (Tipe_Tiket), dan Memasukan inputan yang output tersebut Bertanya memiliki kartu member atau tidak.
 
 
