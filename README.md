@@ -5,9 +5,10 @@
 
 # Struktur Kondisi
 <p>Pada python dikenal penggunaan struktur kondisi menggunakan statement `if`, Konsep pemrograman yang memungkinkan program untuk mengambil keputusan berdasarkan kondisi atau pernyataan tertentu. Struktur seleksi kondisi yang umum digunakan dalam Python </p>
- `If`: Kondisi utama
- `Else if`: Kondisi kedua atau ketiga hingga ke-x
-`Else`: Kondisi terakhir jika semua kondisi sebelumnya tidak terpenuhi 
+<p></p>
+`If` : Kondisi utama
+`Else if` : Kondisi kedua atau ketiga hingga ke-x
+`Else` : Kondisi terakhir jika semua kondisi sebelumnya tidak terpenuhi 
 
 ## Menentukan Nilai Akhir
 ```Python
