@@ -204,6 +204,9 @@ Jika (a) ditambah (b) hasilnya (c) atau yang bahasa programnya itu `or` (b) dita
 
 # Latihan 3
 ## Pemesanan Tiket Bioskop
+
+![soal pemesanantiket](https://github.com/user-attachments/assets/a530e1ae-d00e-475e-a48d-2e899dee9eb5)
+
 ```Python
 # harga_reguler = 50000
 # harga_vip = 100000
