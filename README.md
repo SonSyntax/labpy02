@@ -283,9 +283,11 @@ desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status m
 <p>jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitung"</p>
 
 <p>Hasil program tersebut</p>
+
 ![hasilprogramtiket](https://github.com/user-attachments/assets/e84a467d-4c88-4705-b2d2-2175810476ed)
 
 Eksekusi program tersebut
+
 ![image](https://github.com/user-attachments/assets/5461902a-81a5-453a-8098-6da5fa81378b)
 
 
