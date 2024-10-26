@@ -290,6 +290,11 @@ Eksekusi program tersebut
 
 ![image](https://github.com/user-attachments/assets/5461902a-81a5-453a-8098-6da5fa81378b)
 
+<p>dan Flowchartnya</p>
+
+![flow pemesanan tiket](https://github.com/user-attachments/assets/4e555671-e748-4949-8802-dac90277e8ad)
+
+
 
 #
 ## Kalkulator Sederhana
@@ -366,6 +371,11 @@ saya memasukan desision else ini Karna jika menjawab selain fungsi operator  ini
 <p>Eksekusi program tersebut</p>
 
 ![eksekusiprogramkalkulator](https://github.com/user-attachments/assets/8b737d83-cb3d-4a6c-a189-32f278e15aa4)
+
+<p>dan Flowchartnya</p>
+
+![Flow Kalkulator](https://github.com/user-attachments/assets/8cbe83f7-309d-4f9c-ab4f-63833fd3912e)
+
 
 
 
